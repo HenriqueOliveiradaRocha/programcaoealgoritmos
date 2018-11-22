@@ -5,6 +5,7 @@
 int main(){
 	setlocale(LC_ALL,"Portuguese");
 	int lanches;
+	puts("Digite a opção desejada");
 	puts(" Digite 1 para: BigMac\n Digite 2 para: Quarteirão\n Digite 3 para: MacChicken\n Digite 4 para: Cheddar MacMelt\n Digite 5 para: MacMax");
 	scanf("%d",&lanches);
 	switch (lanches){
